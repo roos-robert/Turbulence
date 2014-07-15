@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turbulence", "Turbulence\Turbulence.csproj", "{1844146A-2E18-4485-A6CE-D90D804474F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turbulence.Tests", "Turbulence.Tests\Turbulence.Tests.csproj", "{2ECCAF6B-941C-4730-BA67-6FDA092F8290}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1844146A-2E18-4485-A6CE-D90D804474F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1844146A-2E18-4485-A6CE-D90D804474F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1844146A-2E18-4485-A6CE-D90D804474F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1844146A-2E18-4485-A6CE-D90D804474F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ECCAF6B-941C-4730-BA67-6FDA092F8290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ECCAF6B-941C-4730-BA67-6FDA092F8290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ECCAF6B-941C-4730-BA67-6FDA092F8290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ECCAF6B-941C-4730-BA67-6FDA092F8290}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
