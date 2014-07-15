@@ -3,7 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Turbulence</title>
+    <title>@ViewBag.Title Turbulence</title>
+    <meta name="description" content="Turbulence webbyrå bygger webblösningar för små och medelstora företag.">
+    <meta name="author" content="Robert Roos">
+    <link rel="icon" href="~/favicon.ico">
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
@@ -26,14 +29,11 @@
                 </ul>
             </div>
         </div>
-    </div>*@
-    
+    </div>*@   
         @RenderBody()
         @*<footer>
             <p>&copy; @DateTime.Now.Year - Turbulence. All rights reserved.</p>
-        </footer>*@
-    
-
+        </footer>*@    
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
