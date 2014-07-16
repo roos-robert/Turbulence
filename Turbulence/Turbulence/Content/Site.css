@@ -48,3 +48,18 @@ input[type="checkbox"].input-validation-error {
 .navbar {  
     /* Changes coming */
 }
+
+.headerCover {
+    width: 100%; 
+    min-height: 100vh; 
+    background-image: url(Gfx/Logotype2.jpg); 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position:center; 
+    margin: 0px auto; 
+    text-align: center; 
+    color: #ffffff;
+}
